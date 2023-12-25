@@ -75,12 +75,12 @@ export default function Introduction({ introduction }) {
             letterSpacing="-1.6px"
           >
             <Box color="displayColor" as="span">
-              Software Development Engineer.
+              Problem-solving ninja.
             </Box>{' '}
-            A self-taught developer{' '}
+            Turning complex challenges into elegant solutions,{' '}
             {isLargerThan800
-              ? 'with an\ninterest in Computer Science.'
-              : 'with an interest in Computer Science.'}
+              ? '\nline by line.'
+              : '\nline by line.'}
           </Heading>
         </SlideFade>
 
