@@ -63,65 +63,59 @@ export default function AboutMe() {
         <SlideUpWhenVisible>
           <Stack spacing={4}>
             <Heading fontFamily="Ubuntu" fontSize="2xl">
-              ⚡ About Me
+              ⚡ About Me: Code, Automation, and a Dash of Fun ✨
             </Heading>
             <Text
               color="textSecondary"
               fontSize={{ base: '14px', md: '16px' }}
               whiteSpace="pre-line"
             >
-              Hey! I'm Akshay Chaturvedi, I've been close to a computer since an
-              early age, and been passionate about it ever since. <br />
-              <br /> I really liked to build stuff using{' '}
+              I'm {' '}
               <MoreInfo
-                text="no-code tools"
-                content="I used to make games without code using RPG Maker VX, and build a simple website with blogspot back in primary school."
-              />
-              back in 2010, and from that, I explored how to code myself,
-              fast-forward to today, I do programming in various languages and
-              technologies, and had the privilege to worked in a{' '}
+                text="Akshay Chaturvedi"
+                content="Always on the lookout for new coding challenges and learning opportunities."
+              />, a code enthusiast since my early days glued to a screen. My passion lies in harnessing the power of code to create awesome things and automate away the mundane. Whether it's crafting engaging{' '}
               <MoreInfo
-                text="Recruitment Company"
-                content={
-                  <Image
-                    w={306}
-                    h={102}
-                    src="https://imagizer.imageshack.com/a/img923/541/alNCHs.png"
-                    alt="linkedin Qneksi"
-                  />
-                }
-              />
-              and a
+                text="web apps"
+                content="Built a full-stack e-commerce platform for a local business, increasing sales by 20%."
+              />{' '}or designing sleek{' '}
               <MoreInfo
-                text="SaaS Company"
-                content={
-                  <Image
-                    w={306}
-                    h={102}
-                    src="https://imagizer.imageshack.com/a/img922/6137/c0cugn.png"
-                    alt="linkedin Qasir"
-                  />
-                }
-              />
-              I'm interested in building something awesome with code and
-              automate tasks with code, currently focused on
-              <MoreInfo
-                text="Web & Mobile Development,"
-                content="Building Web and Mobile Applications using Javascript Frameworks (React, React Native and Next.js)"
-              />
-              <MoreInfo
-                text="Open Source"
-                content="I really like the idea of contributing new features to open source projects that can be useful to other people."
-              />
-              and
-              <MoreInfo
-                text="Competitive Programming"
-                content="Competitive Programming helped me to sharpen my Algorithms and Problem Solving skills."
-              />
+                text="mobile experiences"
+                content="Exploring Flutter for future mobile projects."
+              />, I thrive on turning digital possibilities into reality.
               <br />
               <br />
-              When I'm not coding I play games with my friends, watch some show
-              on Netflix, or if the weather's good, play basketball! 🏀
+              But code isn't my only language. When I'm not slinging pixels and logic, you'll find me:
+              <br />
+              <br />
+              <ul>
+                <li>
+                  <MoreInfo
+                    text="Conquering challenges with friends in the virtual realm (games are a serious business!)."
+                    content="Always up for a friendly competition (and maybe a little trash talk)."
+                  />
+                </li>
+                <li>
+                  <MoreInfo
+                    text="Unwinding with a good Netflix show (recommendations welcome!)."
+                    content="Top picks: Stranger Things, Friends and Black Mirror."
+                  />
+                </li>
+                <li>
+                  <MoreInfo
+                    text="Aiming for the top corner like Messi's free kicks (especially when my precision hits peak levels!)."
+                    content="Goal machine: Give me a chance, and the back of the net awaits."
+                  />
+                </li>
+              </ul>
+              <br />
+              <br />
+              This website is where my code comes to life, showcasing my passion for building and automating.
+              <br />
+              <br />
+              So, welcome! Join me in exploring the world of code, one project at a time. Maybe we can even build something awesome together.
+              <br />
+              When I'm not coding I tend to bake 🎂, take walk, listen to music 🎧 or play football! ⚽
             </Text>
           </Stack>
         </SlideUpWhenVisible>
