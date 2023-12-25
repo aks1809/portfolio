@@ -75,7 +75,7 @@ export default function ContactMe({ contactMe }) {
               </Button>
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1IvhcdThnfMAcPEHy6Yvq4o8vSaIi_ArV/view?usp=sharing"
+              href="https://drive.google.com/file/d/1O1jSUX0Q_MjG72KDvK1Kq1H8PVWqiM9z/view?usp=sharing"
               isExternal
               onClick={() => handleClick('contact_resume')}
             >
